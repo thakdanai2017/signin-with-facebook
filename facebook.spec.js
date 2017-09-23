@@ -5,7 +5,7 @@ function Auth(facebook) {
   }
 }
 
-test('Mock should return 1',() =>{
+test('Mock with 1 should return 1',() =>{
 const mockFn =jest.fn()
   .mockReturnValue(1)
 
